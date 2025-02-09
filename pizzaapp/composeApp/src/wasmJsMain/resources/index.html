@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KotlinProject</title>
-    <link type="text/css" rel="stylesheet" href="styles.css">
-    <script type="application/javascript" src="composeApp.js"></script>
+    <title>Pizza SAW</title>
+    <script src="composeApp.js"></script>
 </head>
 <body>
+<div id="root"></div>
+<script>
+    wasm_bindgen("composeApp.wasm").then(() => {
+        console.log("PizzaApp Web démarré !");
+    });
+</script>
 </body>
 </html>

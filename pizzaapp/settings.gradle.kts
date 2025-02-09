@@ -28,4 +28,8 @@ dependencyResolutionManagement {
     }
 }
 
-include(":composeApp")
+rootProject.name = "PizzaApp"
+include(":androidApp")
+include(":common")
+include(":desktopApp")
+include(":wasmJsApp")

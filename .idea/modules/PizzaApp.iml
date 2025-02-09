@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/../../pizzaapp" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/../../pizzaapp/composeApp/src/androidMain" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../pizzaapp/composeApp/src/androidMain/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../pizzaapp/composeApp/src/commonMain" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../pizzaapp/composeApp/src/desktopMain" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../pizzaapp/composeApp/src/wasmJsMain" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../pizzaapp/composeApp/schemas" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../pizzaapp/schemas" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../pizzaapp/composeApp/build" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../pizzaapp/composeApp/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../pizzaapp/composeApp/src/androidMain/schemas" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../pizzaapp/gradle" isTestSource="false" />
+    </content>
+  </component>
+</module>

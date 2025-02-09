@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PizzaApp-wasm-js">
+    <output-path>$PROJECT_DIR$/pizzaapp/build/libs</output-path>
+    <root id="archive" name="PizzaApp-wasm-js.jar">
+      <element id="module-output" name="PizzaApp.wasmJsMain" />
+    </root>
+  </artifact>
+</component>

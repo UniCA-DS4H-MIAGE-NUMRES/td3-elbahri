@@ -1,16 +1,13 @@
 package Numres.ELBAHRI.pizzaapp.model
 
-import androidx.room.Entity
-import androidx.room.PrimaryKey
 
 
+import kotlinx.serialization.Serializable
 
-
-@Entity(tableName = "purchases")
+@Serializable
 data class Purchase(
-    @PrimaryKey(autoGenerate = true) val id: Int = 0,
+    val id: Int = 0,  // Géré différemment sur Android avec Room
     val date: Long,
     val total: Double,
-    val items: String
+    val items: String  // JSON contenant la liste des pizzas achetées
 )
-

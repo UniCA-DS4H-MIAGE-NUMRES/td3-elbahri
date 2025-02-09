@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PizzaApp-desktop">
+    <output-path>$PROJECT_DIR$/pizzaapp/build/libs</output-path>
+    <root id="archive" name="PizzaApp-desktop.jar">
+      <element id="module-output" name="PizzaApp.desktopMain" />
+    </root>
+  </artifact>
+</component>
